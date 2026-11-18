@@ -7,7 +7,13 @@ authors = [
     { name = "Esra293", email = "esramartinuskhalik07@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "google-generativeai>=0.8.6",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+    "requests>=2.34.2",
+    "streamlit>=1.67.0",
+]
 
 [project.scripts]
 aplikasi-kesehatan-project-pralstrukdat = "aplikasi_kesehatan_project_pralstrukdat:main"
